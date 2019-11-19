@@ -24,4 +24,4 @@
 -mod_title("TeleView Test").
 -mod_descr("Site used to test the teleview module.").
 -mod_prio(10).
--mod_depends([base, bootstrap, teleview]).
+-mod_depends([base, bootstrap]).
