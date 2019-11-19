@@ -1,0 +1,37 @@
+% Zotonic site configuration for liveview.
+[
+    % This site is enabled or not.
+    {enabled, true},
+    
+    % Turn on automatic minification
+    {minification_enabled, true},
+
+    % Hostname on which this site runs
+    {hostname, "teleview.local:8000"},
+
+    {dbdatabase, none},
+
+    {sign_key_simple, <<>>},
+    {sign_key, <<>>},
+
+    % Password for the 'admin' user.
+    {admin_password, "admin"},
+
+    {modules, [
+       televiewtest,
+       mod_base,
+       mod_wires,
+       mod_artwork,
+       mod_bootstrap,
+
+       mod_mqtt,
+       mod_l10n,
+
+       mod_teleview
+    ]},
+    
+    {title, "TeleView Test"},
+
+    %% Automatic javascript minification
+    {javascript_minification_enabled, true}
+].
