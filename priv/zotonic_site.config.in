@@ -2,7 +2,7 @@
 [
     % This site is enabled or not.
     {enabled, true},
-    {site, zotonic_site_televiewtest},
+    {site, televiewtest},
     
     % Turn on automatic minification
     {minification_enabled, true},
@@ -19,7 +19,7 @@
     {admin_password, "admin"},
 
     {modules, [
-       zotonic_site_televiewtest,
+       televiewtest,
        mod_base,
        mod_wires,
        mod_artwork,

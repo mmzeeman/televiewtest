@@ -18,10 +18,10 @@
 %% See the License for the specific language governing permissions and
 %% limitations under the License.
 
--module(zotonic_site_televiewtest).
+-module(televiewtest).
 -author("Maas-Maarten Zeeman <mmzeeman@xs4all.nl>").
 
 -mod_title("TeleView Test").
 -mod_descr("Site used to test the teleview module.").
 -mod_prio(10).
--mod_depends([base, bootstrap]).
+-mod_depends([base, bootstrap, mod_teleview]).

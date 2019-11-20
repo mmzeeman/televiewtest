@@ -1,4 +1,4 @@
-{application, zotonic_site_televiewtest, [
+{application, televiewtest, [
     {description, "Site to test the teleview module with."},
     {vsn, "git"},
     {registered, []},
