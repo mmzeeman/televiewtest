@@ -1,0 +1,11 @@
+{application, televiewtest, [
+    {description, "Site to test the teleview module with."},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib, zotonic_core]},
+    {env, []},
+    {modules, []},
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, [{"GitHub", "https://github.com/zotonic/zotonic"}]}
+]}.
