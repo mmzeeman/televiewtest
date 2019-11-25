@@ -27,6 +27,8 @@
 
     </div>
 
+    {% teleview %}
+
     {% include "_js_include.tpl" %}
 </div>
 </body>
