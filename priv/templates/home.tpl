@@ -29,6 +29,8 @@
 
     {% teleview %}
 
+    {% teleview live={template template="_foo.tpl" topic=id id=id} %}
+
     {% include "_js_include.tpl" %}
 </div>
 </body>
