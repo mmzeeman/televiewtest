@@ -25,6 +25,8 @@
        mod_artwork,
        mod_bootstrap,
 
+       mod_authentication,
+
        mod_mqtt,
        mod_l10n,
 

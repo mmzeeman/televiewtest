@@ -31,6 +31,8 @@
 
     {% teleview live={template template="_foo.tpl" topic=id id=id} %}
 
+    {% worker src="/js/zotonic.teleview.worker.js" name="test-teleview" %}
+
     {% include "_js_include.tpl" %}
 </div>
 </body>
